@@ -18,7 +18,7 @@ public class DWS_TestCase_01 extends BaseClass {
 		Books bp = new Books(driver);
 		bp.getSortByDropdown().click();
 		wutil.selectDropdown(futil.getDataFromPrperty("Hightolow"), bp.getSortByDropdown());
-		
+		Reporter.log("Bookspage has been sorted",true);
 		
 		
 	}
